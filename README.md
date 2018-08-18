@@ -7,7 +7,7 @@
 ####input format
 ######(hardcoded at the beginning of the file)
 
-`let input = &#96;2
+`let input = \` 2
  101110
  800000&#96;`
 
