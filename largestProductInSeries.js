@@ -4,8 +4,8 @@
 
 const input = `10 5
 3675356291
-10 11
-2719361626`
+10 5
+2709360626`
 
 greatestProduct = (input) => {
   let arr = input.match(/\d+\s\d+\s\d+/g)
