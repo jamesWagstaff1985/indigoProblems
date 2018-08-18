@@ -7,11 +7,11 @@
 #### input format
 ###### (hardcoded at the beginning of the file)
 
-``const input = `2   
- 101110  
+``const input = `2<br/> 
+ 101110<br/>
  800000` ``
 
-(Use the swept back accent marks ` &#96; ` to allow multiline strings in javascript)
+(Use the swept back accent marks `` ` `` to allow multiline strings in javascript)
 
 The first line is the number of inputs to be evaluated `2`
 
@@ -28,18 +28,18 @@ Running numbers lower than the first possible palindrome will give back a result
 #### input format
 ###### (hardcoded at the beginning of the file)
 
-`const input = &#96;10 5
-                3675356291
-                10 5
-                2709361626&#96;`
+``const input = `10 5<br/>
+                3675356291<br/>
+                10 5<br/>
+                2709361626```
 
-(Use the swept back accent marks `&#96;` to allow multiline strings in javascript)
+(Use the swept back accent marks ````` to allow multiline strings in javascript)
 
 The first line has a new entry marker `10` and a serie size marker `5`
 
 The follwing line is the number to be evaluated `3675356291`
 
-** The numbers to be evaluated must be larger than the size of the serie **
+*The numbers to be evaluated must be larger than the size of the serie*
 
 The function will return the largest possible product in a given series of each test case as an array  
 
