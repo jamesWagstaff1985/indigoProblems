@@ -7,9 +7,9 @@
 #### input format
 ###### (hardcoded at the beginning of the file)
 
-`const input = &#96; 
- 101110\
- 800000 &#96; `
+`const input = \` 2   
+ 101110  
+ 800000 \` `
 
 (Use the swept back accent marks ` &#96; ` to allow multiline strings in javascript)
 
@@ -17,7 +17,7 @@ The first line is the number of inputs to be evaluated `2`
 
 The follwing lines are the numbers to be evaluated `101110` and `800000`
 
-** The numbers to be evaluated must be a length of 6 digits as the output has to be two integers of length 3 **
+*The numbers to be evaluated must be a length of 6 digits as the output has to be two integers of length 3*
 
 The function will evaluate numbers from `101101` (The first possible palindrome) and `906609` (The last possible palindrome)
 
