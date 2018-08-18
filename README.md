@@ -7,8 +7,8 @@
 #### input format
 ###### (hardcoded at the beginning of the file)
 
-``const input = `2<br/> 
- 101110<br/>
+``const input = `2 <br/> 
+ 101110 <br/>
  800000` ``
 
 (Use the swept back accent marks `` ` `` to allow multiline strings in javascript)
@@ -28,10 +28,10 @@ Running numbers lower than the first possible palindrome will give back a result
 #### input format
 ###### (hardcoded at the beginning of the file)
 
-``const input = `10 5<br/>
-                3675356291<br/>
-                10 5<br/>
-                2709361626```
+``const input = `10 5 <br/>
+                3675356291 <br/>
+                10 5 <br/>
+                2709361626` ``
 
 (Use the swept back accent marks ````` to allow multiline strings in javascript)
 
