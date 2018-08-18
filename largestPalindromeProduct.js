@@ -11,14 +11,14 @@ let inputArray = input.match(/(\d+)/g)
 let outputArray = [];
 
 // function to check if is palindrome
-isPalinDrome = (input) => {
+isPalindrome = (input) => {
   return [...input.toString()].reverse().join('') == input;
 }
 
 largestPalindromeProduct = (input) => {
   for(let j = input; j > 100000; j--){
     for(let i = 999; i > 99; i--){
-      if(j / i < 1000 && j % i === 0 && isPalinDrome(j)) return j
+      if(j / i < 1000 && j % i === 0 && isPalindrome(j)) return j
     }
   }
 }
