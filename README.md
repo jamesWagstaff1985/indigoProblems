@@ -28,9 +28,9 @@ Running numbers lower than the first possible palindrome will give back a result
 #### input format
 ###### (hardcoded at the beginning of the file)
 
-``const input = `10 5``
-                `3675356291`
-                `10 5`
+``const input = `10 5``  
+                `3675356291`  
+                `10 5`  
                 ``2709361626` ``
 
 (Use the swept back accent marks ````` to allow multiline strings in javascript)
