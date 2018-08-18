@@ -7,11 +7,11 @@
 #### input format
 ###### (hardcoded at the beginning of the file)
 
-`const input = \` 2\
+`const input = &#96; 
  101110\
- 800000 \` `
+ 800000 &#96; `
 
-(Use the swept back accent marks `&#96;` to allow multiline strings in javascript)
+(Use the swept back accent marks ` &#96; ` to allow multiline strings in javascript)
 
 The first line is the number of inputs to be evaluated `2`
 
