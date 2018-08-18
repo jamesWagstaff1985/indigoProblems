@@ -4,7 +4,7 @@
 */
 let input = `2
 101110
-800000`
+ 1200000`
 
 // Prepare input and output
 let inputArray = input.match(/(\d+)/g)
@@ -16,7 +16,7 @@ isPalindrome = (input) => {
 }
 
 largestPalindromeProduct = (input) => {
-  for(let j = input; j > 100000; j--){
+  for(let j = input; j > 101100; j--){
     for(let i = 999; i > 99; i--){
       if(j / i < 1000 && j % i === 0 && isPalindrome(j)) return j
     }
