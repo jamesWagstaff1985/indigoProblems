@@ -33,7 +33,7 @@ Running numbers lower than the first possible palindrome will give back a result
                 `10 5`  
                 ``2709361626` ``
 
-(Use the swept back accent marks ````` to allow multiline strings in javascript)
+(Use the swept back accent marks `` ` `` to allow multiline strings in javascript)
 
 The first line has a new entry marker `10` and a serie size marker `5`
 
